@@ -1,0 +1,134 @@
+:root {
+    --vermelhor: hsl(0, 100%, 74%);
+    --fonte-principal: 'Poppins';
+    --branco: #FFFFFF;
+    --grayish-blue: hsl(246, 25%, 77%);
+    --azul-escuro: hsl(248, 32%, 49%);
+    --preto: #000000;
+    --verde: hsl(154, 59%, 51%);
+}
+
+body {
+    background-color: var(--vermelhor);
+    font-family: var(--fonte-principal);
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.principal { 
+    color: var(--branco);
+    width: 500px;
+    margin-right: 50px;
+}
+
+
+.titulo {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.cadastro {
+    min-width: 500px;
+}
+
+.caixa {
+    width: 100%;
+    padding: 1em; 
+    border-radius: 7px;
+    background-color: var(--azul-escuro);
+    border-radius: 7px;
+    margin-bottom: 2em;
+    border: none;
+    box-shadow: 0px 7px 0px #d261618f;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.caixa__texto {
+    color: var(--branco);
+    font-size: 15px;
+}
+
+.caixa__texto strong {
+    font-weight: 700;
+
+}
+
+.informacoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    border-radius: 8px;
+    box-shadow: 1px 7px 0px #d2616177;
+    height: 450px;
+}
+
+.textlogin {
+    display: flex;
+    justify-content: center;
+}
+
+.textlogin:nth-child(1) {
+    margin-top: 25px;
+}
+
+input {
+    width: 85%;
+    border-radius: 5px;
+    padding: 12px;
+    color: var(--preto);
+    font-size: 13px;
+    margin: 5px;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    border-width: 1px;
+    border-color: grey;
+    font-weight: 700;
+    height: 50px;
+}
+
+
+.botão {
+    width: 85%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--branco);
+    background-color: var(--verde);
+    box-shadow: 1px 5px 0px #54b4557d;
+    margin-bottom: 2em;
+}
+
+.botão:active {
+    background-color: hsl(154, 70%, 26%); ;
+}
+
+.descricao {
+    font-size: 11px;
+    color: grey;
+    text-align: center;
+}
+
+.termos {
+    text-decoration: none;
+    color: var(--vermelhor);
+    font-weight: bold;
+} 
+
+.termos:active {
+    color:hsl(0, 48%, 50%);
+}
+
